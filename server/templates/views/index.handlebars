@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      color: black;
+      font-family: sans-serif;
+    }
+
+    h2 {
+      background: #e65c4f;
+      opacity: 1;
+      height: 70px;
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0px 0px 0px;
+      margin-bottom: 0px;
+
+    }
+
+    h3 {
+      padding-right: 10px;
+      font-size: 18px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      font-size: 16px;
+      font-size: 16px;
+      font-size: 16px;
+      margin-bottom: 0px;
+    }
+  </style>
+</head>
+
+<body style="background-color: #f5f5f5;">
+  <h2>New Contact Form Submission</h2>
+  <p style="width: 100%;
+  text-align: center;
+  font-size: 15px; padding: 10px 0px;
+    margin-top: 0px;">You have received a new message from your website's contact form.</p>
+  <div style="padding: 10px">
+    <div style="display: flex; flex-wrap: nowrap; align-items: baseline;">
+      <h3>Sender Name: </h3>
+      <p style="margin-top: 21px;">{{SenderName}}</p>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; align-items: baseline;">
+      <h3>Sender Email: </h3>
+      <p style="margin-top: 21px;">{{SenderEmail}}</p>
+    </div>
+    <div style="display: flex; flex-wrap: nowrap; align-items: baseline;">
+      <h3>Sender Contact: </h3>
+      <p style="margin-top: 21px;">{{SenderContact}}</p>
+    </div>
+    <div>
+      <h3 style="font-size: 18px">Message: </h3>
+      <p>{{Message}}</p>
+    </div>
+    <div style="padding: 12px 0px; text-align: end;">
+      <a style="background-color: #cbcbcb;
+      padding: 9px;
+      text-decoration: none;
+      font-size: 13px;
+      color: black;" href="mailto:{{SenderEmail}}?subject= DELTA LPG PVT.LTD."> Reply to sender</a>
+    </div>
+  </div>
+  <div>
+    <div style=" background-color: #F1F1F1; ">
+      <div style="padding: 11px;
+        DISPLAY: flex;
+        flex-direction: column;
+        align-items: center;">
+        <img
+          src="https://lh6.googleusercontent.com/-lVTS1cc_3K4/AAAAAAAAAAI/AAAAAAAAAAA/cqXiIo0Htcw/s44-p-k-no-ns-nd/photo.jpg"
+          alt="logo.png" width="50px" height="auto" style="align-items: center; border-radius: 50%" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
